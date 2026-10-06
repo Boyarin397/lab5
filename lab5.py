@@ -1,4 +1,4 @@
-n = int(input("Введите количество чисел: "))
+N = int(input("Введите количество чисел: "))
 sum_positive = 0
 count_positive = 0
 
