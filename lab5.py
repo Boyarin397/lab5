@@ -6,7 +6,7 @@ sum_negative = 0
 count_negative = 0
 
 for i in range(N):
-  x = int(input("Введите число: "))
+  x = int(input("Введите числа: "))
   if x > 0:
     sum_positive += x
     count_positive += 1
