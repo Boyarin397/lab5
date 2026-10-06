@@ -1,4 +1,5 @@
 N = int(input("Введите количество чисел: "))
+
 sum_positive = 0
 count_positive = 0
 
@@ -7,14 +8,15 @@ count_negative = 0
 
 for i in range(N):
   x = int(input("Введите числа: "))
+  
   if x > 0:
     sum_positive += x
     count_positive += 1
   elif x < 0:
-    sum_positive += x
-    count_positive += 1
+    sum_negative += x
+    count_negative += 1
 
-if count_positive > 0 and count_negtive > 0:
+if count_positive > 0 and count_negative > 0:
   average_positive = sum_positive / count_positive
   average_negative = sum_negative / count_negative
 
