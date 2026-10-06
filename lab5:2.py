@@ -12,4 +12,4 @@ for i in range (1, N):
     summa += a[i] - a[i -1]
 
 print("Количество превышений:", count)
-print("Сумма првышений:", summa)
+print("Сумма прeвышений:", summa)
